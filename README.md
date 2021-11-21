@@ -42,6 +42,13 @@ http://localhost/test.php
 ```
 It should say "IT WORKS"
 
+If you want to remove php completely from the system, try this one
+
+```bash
+sudo apt-get purge `dpkg -l | grep php| awk '{print $2}' |tr "\n" " "`
+```
+---------------------------------------
+
 And now it's time to set up the MySQL database. Go back to terminal  
 ```bash
 sudo apt-get install mysql-server mysql-client
