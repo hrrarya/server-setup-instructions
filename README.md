@@ -1,8 +1,8 @@
 # Server Setup Instructions
-Use these instructions to setup Apache, PHP,Composer, And Node JS in your Ubuntu System
+Use these instructions to setup Apache, PHP,Composer, And Node JS in your Ubuntu Based System.
 
 ## Requirments
-Here I am using an Ubuntu server. So these commands will only work on Ubuntu Server.
+Here I am using an Ubuntu server. I have tested this instructions in Ubuntu 20+, Linux Mint 20+, Elementary OS, and works perfectly. Basically you can use these instructions in any ubuntu based system.
 
 ## Installation
 To install Apache
